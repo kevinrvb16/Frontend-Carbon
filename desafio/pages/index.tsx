@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Card from '../components/card'
+import Grid2Col from '../components/grid-2-col'
 import Grid3Col from '../components/grid-3-col'
 import Header from '../components/header'
 import ImgCard from '../components/img-card'
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
       <ImgCard/>
       <Title/>
       <Grid3Col/>
+      <Grid2Col/>
     </div>
   )
 }
