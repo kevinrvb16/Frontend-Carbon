@@ -6,8 +6,8 @@ const Tab = () => {
     return (
         <>
 
-            <div className="text-sm font-medium text-center text-gray-800 border-b border-gray-200  dark:border-gray-300">
-                <ul className="flex flex-wrap -mb-px">
+            <div className="text-sm font-medium text-center justify-center text-gray-800 border-gray-200  dark:border-gray-300">
+                <ul className="flex flex-wrap -mb-px border-b align-center">
                     <li className="mr-2">
                         <a href="#" className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-900 hover:border-gray-900 dark:hover:text-gray-900">Stays</a>
                     </li>
