@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import {ChevronDownIcon , MenuIcon, XIcon, PaperAirplaneIcon } from '@heroicons/react/outline'
+import {ChevronDownIcon , MenuIcon, XIcon, PaperAirplaneIcon, GlobeAltIcon } from '@heroicons/react/outline'
 
 const Navbar = () => {
 
@@ -139,14 +139,15 @@ const Navbar = () => {
                                     </Menu>
                                 </div>
                                 <div className="hidden sm:block sm:ml-11 justify-end">
-                                    <div className="flex space-x-4 content-end">
+                                    <div className="flex space-x-3 content-end">
+                                        <GlobeAltIcon className="h-4 ml-10 mt-[10px] w-4 text-blue-900" viewBox="0 0 20 24"/>
                                         {navigation.map((item) => (
                                             <a
                                                 key={item.name}
                                                 href={item.href}
                                                 className={classNames(
                                                     item.current ? 'bg-gray-900 text-white' : 'text-gray-700  hover:text-blue-700',
-                                                    'px-3 py-2 rounded-md text-sm font-medium'
+                                                    'px-2 py-2 rounded-md text-sm font-medium'
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
                                             >
