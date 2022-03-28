@@ -31,7 +31,11 @@ const Tab = () => {
                     <Input/>
                     <DatePicker/>
                 </div>
-                    <Button/>
+                <div className="font-light text-sm text-gray-600 text-left">
+                    <input type="checkbox" className="h-4 w-4 checked:bg-blue-500 text-gray-500 mr-2" />Add a flight
+                    <input type="checkbox" className="h-4 w-4 ml-10 checked:bg-blue-500  mr-2" />Add a car
+                </div>
+                <Button/>
             </div>
         </>
     )
